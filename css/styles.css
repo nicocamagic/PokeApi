@@ -15,6 +15,10 @@ button{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #171717;
 }
 
 .c-lista-pokemon{
@@ -36,11 +40,46 @@ button{
     justify-content: space-around;
     padding: 10px 15px;
     gap: 10px;
+    box-shadow: 0 0 5px #171717;
+    z-index: 100;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #171717;
+    text-align: center;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, #ff0000, #ff7f00);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
 }
 
 .c-nav-item{
     width: calc(20% - 8px);
     background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #171717;
+    transition: 0.5s;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #171717;
+    background-image: linear-gradient(to bottom, #ff0000, #ff7f00);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-clip: text;
 }
 .c-nav-item:hover{
     color: yellow;
@@ -62,7 +101,13 @@ button{
 }
 
 .c-unpoke img{
-
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    border: 2px solid #171717;
+    box-shadow: 0 0 5px #171717;
+    transition: 0.5s;
 }
 
 .c-mios-pokemon{
